@@ -53,7 +53,6 @@ jobs:
           board: rockpi-4cplus
           distro: ${{ matrix.distros }}
           flavor: ${{ matrix.flavors }}
-          kernel_branch: edge
           release-id: ${{ needs.prepare_release.outputs.release_id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload debos-radxa image
