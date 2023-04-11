@@ -33,7 +33,7 @@ jobs:
     strategy:
       matrix:
         boards: [rock-4c-plus]
-        build_systems: [rbuild, armbian]
+        build_systems: [rbuild]
         distros: [debian, ubuntu, focal]
         flavors: [kde, xfce, cli]
         exclude:
